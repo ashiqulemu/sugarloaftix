@@ -148,7 +148,7 @@ body {
 }
 
 .topbar {
-  background: #2a2a2a !important;
+  background: linear-gradient(90deg, #100d0b, #893642, #2c2a6e);
 }
 .topbar .inner {
   display: flex;
