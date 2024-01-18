@@ -236,7 +236,12 @@ body {
             background: darken(#FFD653, 5%);
             margin-right: 2px;
             background: linear-gradient(193deg, #ab9660, #f15b70, #683fb7);
-
+           
+            padding: 5px;
+            iconify-icon {
+               font-size: 20px;
+            }
+           
             &:hover {
                 background: linear-gradient(145deg, #ab9660, #f15b70, #683fb7);
 

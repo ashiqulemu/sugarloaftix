@@ -196,6 +196,10 @@ body {
   background: #ffd03a;
   margin-right: 2px;
   background: linear-gradient(193deg, #ab9660, #f15b70, #683fb7);
+  padding: 5px;
+}
+.siteHeader .inner .social-icons iconify-icon {
+  font-size: 20px;
 }
 .siteHeader .inner .social-icons:hover {
   background: linear-gradient(145deg, #ab9660, #f15b70, #683fb7);
