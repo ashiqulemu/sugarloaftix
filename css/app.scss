@@ -213,6 +213,13 @@ body {
     }
 
 }
+.top-search-events {
+    background-image: url(../images/homepage-xxlarge@2x.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    background-position: top center;
+}
 
 //   navbar css
 
@@ -805,8 +812,8 @@ footer {
 //chairman section 
 
 .chairman {
-    padding: 70px 0;
-    background: rgb(255 255 255 / 46%);
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.46);
 
     img {
         border-radius: 25% 82% 35% 58% / 65% 82% 15% 38%;

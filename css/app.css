@@ -175,6 +175,14 @@ body {
   color: #fff;
 }
 
+.top-search-events {
+  background-image: url(../images/homepage-xxlarge@2x.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  background-position: top center;
+}
+
 .siteHeader {
   background: #000;
 }
@@ -640,7 +648,7 @@ footer .nav-item a:hover {
 }
 
 .chairman {
-  padding: 70px 0;
+  padding: 25px;
   background: rgba(255, 255, 255, 0.46);
 }
 .chairman img {
