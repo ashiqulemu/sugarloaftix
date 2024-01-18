@@ -36,9 +36,10 @@ a {
         height: 4px;
         position: absolute;
         top: 0;
-        background: linear-gradient(90deg, #f9763f, #d5475b, #3e3acc);
+        background:#5c5454;
     }
-    iconify-icon{
+
+    iconify-icon {
         color: #dc5021;
         font-size: 1.5rem;
         vertical-align: middle;
@@ -180,7 +181,7 @@ body {
 // top bar css
 
 .topbar {
-    background: linear-gradient(90deg, #100d0b, #893642, #2c2a6e);
+    background: #000;
 
     .inner {
         display: flex;
@@ -189,7 +190,8 @@ body {
         align-items: center;
 
         .social-icons {
-            flex-basis: 45px;
+            flex-basis: 30px;
+            height: 30px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -216,14 +218,43 @@ body {
 
 .siteHeader {
     background: #000;
+    .inner {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+
+        .social-icons {
+            flex-basis: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $white ;
+            height: 100%;
+            background: darken(#FFD653, 5%);
+            margin-right: 2px;
+            background: linear-gradient(193deg, #ab9660, #f15b70, #683fb7);
+
+            &:hover {
+                background: linear-gradient(145deg, #ab9660, #f15b70, #683fb7);
+
+                .iconify {
+                    color: $white;
+                }
+            }
+        }
+
+    }
 
     &:after {
         content: "";
-        width: 100%;
-        height: 4px;
-        position: absolute;
-        bottom: 0;
-        background: linear-gradient(90deg, #f9763f, #d5475b, #3e3acc);
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    background: #5c5454;
     }
 
     .navbar-brand {
@@ -770,7 +801,7 @@ footer {
 
 .chairman {
     padding: 70px 0;
-    background:rgb(255 255 255 / 46%);
+    background: rgb(255 255 255 / 46%);
 
     img {
         border-radius: 25% 82% 35% 58% / 65% 82% 15% 38%;
