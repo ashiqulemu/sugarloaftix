@@ -91,7 +91,7 @@ html {
 }
 .card-style .content .title {
   font-size: 16px;
-  margin: 12px 0 7px;
+  margin: 0 0 7px;
   color: #2a2a2a !important;
   text-transform: capitalize;
   font-family: "poppins-medium";
